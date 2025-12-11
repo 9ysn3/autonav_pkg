@@ -1,0 +1,35 @@
+<launch>
+
+    <param name="robot_description" command="$(find xacro)/xacro $(find autonav_pkg)/xacro/differential_robot.xacro" />
+
+   
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find autonav_pkg)/rviz/autonav.rviz" />
+
+
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
+        <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+    
+
+    <node name="complex_obstacles_node" pkg="autonav_pkg" type="complex_obstacles.py" />
+
+    <node name="lidar_node" pkg="autonav_pkg" type="lidar.py" />
+
+    <node name="odom_node" pkg="autonav_pkg" type="odom_node.py" />
+
+    <node name="map_node" pkg="autonav_pkg" type="map.py" />
+
+    <node name="arduino" pkg="autonav_pkg" type="arduino.py" output="screen"/>
+
+    <node name="path" pkg="autonav_pkg" type="path.py" output="screen"/>
+
+    <node name="apf_controller_node" pkg="autonav_pkg" type="apf_controller.py" />
+
+    <node name="rqt_graph" pkg="rqt_graph" type="rqt_graph" />
+
+
+    <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="robot_initial_pose"
+          args="5 5 0 -1.5707 0 0 world body" /> -->
+</launch>

@@ -1,0 +1,4 @@
+# Initial robot pose
+init_x: 5.0        # Initial X position
+init_y: 5.0        # Initial Y position
+init_yaw: -1.5707  # Initial orientation (in radians) -90 degrees

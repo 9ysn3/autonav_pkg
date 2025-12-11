@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# ROS build
+build/
+devel/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RViz / generated files
+*.rviz
